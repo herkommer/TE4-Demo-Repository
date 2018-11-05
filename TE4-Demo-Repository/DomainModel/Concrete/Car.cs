@@ -17,5 +17,10 @@ namespace TE4_Demo_Repository.DomainModel.Concrete
         public string Model { get; set; }
         public string Color { get; set; }
         public int Milage { get; set; }
+
+        public override string ToString()
+        {
+            return string.Format("{0} {1}", Make, Model);
+        }
     }
 }
