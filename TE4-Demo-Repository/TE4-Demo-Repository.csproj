@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="DomainModel\Abstract\IRepository.cs" />
     <Compile Include="DomainModel\Concrete\Car.cs" />
+    <Compile Include="DomainModel\Concrete\Repository.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
