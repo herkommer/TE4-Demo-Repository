@@ -15,6 +15,14 @@ namespace TE4_Demo_Repository
         public Form1()
         {
             InitializeComponent();
+
+            button1.Text = "Open Add Car";
+            button1.Click += new EventHandler(AddCar);
+        }
+
+        private void AddCar(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }
