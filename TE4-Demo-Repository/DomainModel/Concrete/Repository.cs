@@ -32,7 +32,7 @@ namespace TE4_Demo_Repository.DomainModel.Concrete
 
         public void Add(Car c)
         {
-            throw new NotImplementedException();
+            cars.Add(c);
         }
     }
 }

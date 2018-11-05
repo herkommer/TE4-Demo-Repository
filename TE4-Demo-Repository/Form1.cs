@@ -30,7 +30,8 @@ namespace TE4_Demo_Repository
 
         private void AddCar(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            AddCar frmAddCar = new AddCar();
+            frmAddCar.ShowDialog();
         }
     }
 }
